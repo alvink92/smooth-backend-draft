@@ -1,34 +1,28 @@
 {
-  "name": "nba-snapshot",
+  "name": "smooth-backend",
   "version": "1.0.0",
-  "description": "This README would normally document whatever steps are necessary to get the application up and running.",
-  "main": "index.html",
+  "description":
+    "This README would normally document whatever steps are necessary to get the application up and running.",
+  "main": "lib/main.js",
   "directories": {
     "doc": "docs",
     "test": "test"
   },
   "scripts": {
-    "postinstall": "webpack",
-    "start": "webpack --w"
+    "postinstall": ""
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/alvink92/nba-snapshot.git"
+    "url": "git+https://github.com/alvink92/smooth-backend.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/alvink92/nba-snapshot/issues"
+    "url": "https://github.com/alvink92/smooth-backend/issues"
   },
-  "homepage": "https://github.com/alvink92/nba-snapshot#readme",
-  "dependencies": {
-    "babel-core": "^6.26.0",
-    "babel-loader": "^7.1.2",
-    "babel-preset-es2015": "^6.24.1",
-    "jsonfile": "^4.0.0",
-    "webpack": "^3.6.0"
-  },
+  "homepage": "https://github.com/alvink92/smooth-backend#readme",
+  "dependencies": {},
   "engines": {
     "node": "6.10.1",
     "npm": "3.10.10"
